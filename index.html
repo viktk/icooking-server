@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iCooking API</title>
+</head>
+<body>
+  <div style="margin: 5em auto; width: 400px; line-height: 1.5">
+    <h1 style="text-align: center">Hello!</h1>
+    <p>Si tu vois ce message, c'est que ton serveur est bien lancé !</p>
+    <div>Désormais, tu dois venir utiliser l'API</div>
+    <ul style="display: inline-block; margin-top: .2em">
+      <li>Recettes : <code>GET /recipes</code></li>
+      <li>
+        Login : <code>POST /login</code><br>
+        <em>data</em> : <code>email</code> et <code>password</code>
+      </li>
+      <li>
+        Recettes préférées : <code>GET /favorites</code><br>
+        <em>header</em> : <code>Authorization: Bearer yourToken</code>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
